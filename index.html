@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="app/scss/style.css" />
+    <title>My Portfolio</title>
+  </head>
+
+  <body>
+    <header class="header" id="home">
+      <nav class="flex flex-jc-sb flex-ai-c">
+        <div>
+          <!-- insert favicon -->
+        </div>
+
+        <!-- for hamburger menu -->
+
+        <a id="hamburgerButton" href="#" class="header__menu hide-for-desktop">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+
+        <div class="header__links hide-for-mobile">
+          <a href="#home">Home</a>
+          <a href="#resume">Resume</a>
+          <a href="#showcase">Showcase</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="home">
+        <h1>
+          Hello, World! <br />
+          I'm Steeve Johan Otoka
+        </h1>
+        <p>Computer Engineering Student | Lassonde School of Engineering</p>
+        <img
+          class="circleFrame"
+          src="images\me.jpg"
+          alt="A picture of me"
+          height="180"
+        />
+      </section>
+
+      <section class="resume">
+        <h2>Resume</h2>
+        <p>
+          View Resume
+          <a
+            href="documents\Steeve Johan_Otoka Eyota_Resume.pdf"
+            target="_blank"
+            >Here</a
+          >
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div id="contact">
+        <h2>Contact</h2>
+        <a href="mailto:jotok15@my.yorku.ca">Send Email</a>
+      </div>
+      <div id="socials"></div>
+      <div>
+        <p>©2021 by Steeve Johan Otoka Eyota</p>
+      </div>
+    </footer>
+
+    <script src="app/js/script.js"></script>
+  </body>
+</html>
